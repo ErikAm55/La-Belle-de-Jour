@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 *{
     padding: 0;
@@ -8,17 +8,15 @@
 body{
     background-color: #F8F8F8;
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
 
 }
 
-header, main, footer{
+header,footer{
     width: 80%;
     margin: 0 auto;
 }
 
-.header{
-
-}
 .menu{
     display: flex;
     align-items: center;
@@ -37,9 +35,6 @@ nav{
 
 nav ul{
     list-style-type: none;
-}
-
-nav ul{
     display: flex;
 }
 
@@ -54,3 +49,101 @@ nav li a:hover{
     background-color: #EEEAE9;
     width: 300%;
 }
+
+.destaques{
+    background-color: #F9EBEE;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    margin:50px auto 0 auto;
+}
+
+#bottom{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+}
+
+#bottom a{
+    text-decoration: none;
+    color: white;
+}
+
+.img1{
+    width: 300px;
+}
+
+.content{
+    margin-left: 1%;
+    color: #AC9496;
+    font-size: 20px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+
+.text1{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.text1 h3{
+    color: #C2B6B6
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img2 img{
+    width: 200px;
+    position: relative;
+}
+
+.diferencial{
+    width: 100%;
+    background-color: #F8F8F8 ;
+}
+
+.img_text{
+    width:90%;
+    background-image: url("4xZdAJ6.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items:flex-end;
+    height: 600px;
+}
+
+.text2{
+    width: 70%;
+    height: 70%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+
+
